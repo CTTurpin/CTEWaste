@@ -1,0 +1,125 @@
+#header {
+height: 100px;
+background-color: #266C12;
+position: absolute;
+width: 100%;
+text-align: center;
+border-bottom: 2px solid black;
+margin: auto;
+}
+
+#navigation {
+width: 20%;
+position: absolute;
+text-align: center;
+top: 100px;
+border-right: 1px solid black;
+height: 1400px;
+margin: auto;
+background-color: #6CA45B;
+float: left;
+border-top: 2px solid black;
+}
+
+#body {
+width: 60%;
+position: absolute;
+left: 20%;
+top: 100px;
+margin: auto;
+border-right: 1px solid black;
+border-left: 1px solid black;
+height: 1400px;
+background-color: #368346;
+overflow: hidden;
+border-top: 2px solid black;
+}
+
+#ads {
+width: 20.5%;
+position: absolute;
+border-left: 1px solid black;
+top: 100px;
+left: 80%;
+height: 1400px;
+margin: auto;
+background-color: #6CA45B;
+float: right;
+border-top: 2px solid black;
+text-align: center;
+}
+
+#forsale td {
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+width: 250px;
+text-align: center;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	border: 1px solid #555;
+}
+
+li a {
+    display: block;
+    width: 100%;
+	text-align: center;
+	height: 30px;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.body {
+top: 50px;
+font-size: 14pt;
+text-align: justify;
+}
+
+.items_table {
+font-size: 6pt;
+}
+
+.norm {
+font-size 14pt;
+}
+
+.small {
+font-size 10pt;
+}
+
+.error {
+color: #FF0000;
+}
